@@ -43,7 +43,8 @@ The user then sends the message to their intended recipient who will use the app
 
         Copy and paste.
 
- * Destroy all Evidence
+ * Destroy all Evidence 
 
         Reset to default deleting all user saved information.
+        (Warning, Permanently deletes, utilizing magnetic mind waves to prevent recovery)
 
