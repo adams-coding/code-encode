@@ -12,7 +12,9 @@ def menu_screen
         menu_choice = gets.chomp
             case
             when menu_choice == "e"
-                encode_screen
+                show_menu = false
+                encode_text = encoder(user_message(),encode_screen())
+            puts encode_text
             when menu_choice == "d"
                 decode_screen
             when menu_choice == "p"
@@ -23,7 +25,7 @@ def menu_screen
                 break
             when menu_options.include?("#{menu_choice}") == false
                 puts "Invalid option. Check brain and fingers then try again"
-                sleep(1)
+                sleep (1)
                 
             end
         end
