@@ -15,6 +15,26 @@ Requirements:
 require "./profile.rb"
 require 'tty-progressbar'
 require './loading.rb'
+require './main_menu.rb'
+require './messages.rb'
+require './encode.rb'
+require './decode.rb'
+require "csv"
 
-loading_before_menu
 
+puts "remove this line and uncomment following line after testing complete"
+# loading_before_menu 
+
+# Main Menu
+
+
+menu_screen
+
+
+
+
+
+
+
+
+   
