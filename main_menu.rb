@@ -13,16 +13,22 @@ def menu_screen
             case
             when menu_choice == "e"
                 show_menu = false
-                encode_text = encoder(user_message(),encode_screen())
-            puts encode_text
+                encode_text = encoder(user_message(),encode_screen(), recipient_screen())
+                puts encode_text
+
             when menu_choice == "d"
-                decode_screen
+                decode_text = decoder(decode_screen(), receiver_screen(), sender_message())
+                puts decode_text
+
             when menu_choice == "p"
                 profile_screen
+
             when menu_choice == "s"
                 saved_message_screen
+
             when menu_choice == "q"
                 break
+
             when menu_options.include?("#{menu_choice}") == false
                 puts "Invalid option. Check brain and fingers then try again"
                 sleep (1)
