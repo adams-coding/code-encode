@@ -20,7 +20,7 @@
     end
     
     # Takes the users text and encodes it using their phone digits and the digits of their recipient
-    def encoder(user_text, user_digits, recipient_digits)
+    def encoder(user_digits, recipient_digits, user_text)
             base_letters = [*'a'..'z', *'0'..'9', *'A'..'Z'].to_a
             first_text =" "
             encode_text = " "
