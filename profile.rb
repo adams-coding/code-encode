@@ -43,7 +43,7 @@ def profile_screen
 
     desired_indices = [1] 
 
-    edited_rows = rows_array.each_with_index.map do |row, index| 
+    edited_rows = rows_array.each_with_index.map do |row, index|
     if desired_indices.include?(index)
 
         # Return variables
