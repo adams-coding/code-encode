@@ -1,5 +1,5 @@
 
-require 'pastel'
+
 
 
 
@@ -9,7 +9,7 @@ def loading_before_menu
     green = pastel.on_green(" ")
     red = pastel.on_red(" ")
     brigreen = pastel.on_bright_green(" ")
-
+  
     bar = TTY::ProgressBar.new("Closing backdoor                       [:bar]", total: 30, complete: green, incomplete: red)
     30.times do
     sleep(0.02)
@@ -87,4 +87,5 @@ def loading_before_menu
     bar.advance(1)
     end
 
+    
 end
