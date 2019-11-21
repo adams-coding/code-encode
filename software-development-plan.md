@@ -77,5 +77,26 @@ Menu options are:
   - If profile is not saved, User will be prompted to enter last 3 phone digits. 
   - User will be prompted to enter last 3 digits of recipients phone number.
   - User will be prompted to type message for encoding.
-  
+  - Encoded message will be displayed for copying
+  - Main menu is displayed
+
+  Decode:
+  - User will be prompted to enter last 3 phone digits. 
+  - User will be prompted to enter last 3 digits of senders phone number.
+  - User will be prompted to paste message for encoding.
+  - Decoded message will be displayed.
+  - Main menu is displayed
+
+  Profile:
+   - User name and digits will be displayed.
+   - Option to change name and digits is displayed
+   - Friends list is displayed.
+   - option to return to main menu
+
+   Saved messages: 
+   - Saved message list is displayed
+   - Saved message can be copied for encoding/decoding
+   - option to return to main menu
+   
+
   
