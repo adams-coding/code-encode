@@ -7,11 +7,8 @@ Save profile details.
 Save friends details. Name and last 3 digits of phone number.
 Automatically include link to app when sending messages to friends
 Send email from app
-
-Requirements:
-
-
 =end
+
 require "./profile.rb"
 require 'tty-progressbar'
 require './loading.rb'
@@ -20,10 +17,14 @@ require './messages.rb'
 require './encode.rb'
 require './decode.rb'
 require "csv"
+require 'tty-prompt'
+require 'pastel'
+require 'colorize'
 
 
-puts "remove this line and uncomment following line after testing complete"
-# loading_before_menu 
+# puts "remove this line and uncomment following line after testing complete"
+
+loading_before_menu 
 
 # Main Menu
 
