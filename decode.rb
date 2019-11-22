@@ -46,5 +46,5 @@
                 end
                 
             end
-            return decode_text
+            return decode_text.colorize(:green)
     end
