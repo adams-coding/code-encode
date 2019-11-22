@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    colorize (0.8.1)
     csv (3.1.2)
     equatable (0.6.1)
     necromancer (0.5.0)
@@ -31,7 +32,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  colorize
   csv
+  pastel
   tty-progressbar
   tty-prompt
 
