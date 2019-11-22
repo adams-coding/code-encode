@@ -29,9 +29,13 @@
                 if letter == " "
                     first_text += " "
                 else 
+                    begin
                     base_index = base_letters.find_index(letter)
                     new_index = ( base_index + user_digits ) % base_letters.count
                     first_text += base_letters[new_index]
+                    rescue 
+                        puts "Ignored invalid character."
+                    end
                 end
                 
             end
@@ -46,5 +50,5 @@
                 end
                 
             end
-            return encode_text
+            return encode_text.colorize(:red)
     end
