@@ -12,12 +12,13 @@ def menu_screen
         blank = " "
     
     menu_choices = TTY::Prompt.new
-    puts "Hello #{user_profile_name}!" 
+    puts "Hello #{user_profile_name}!".colorize(:blue) 
     puts "Code-Encode is lets you encode and decode secret messages"
     puts "Just choose an option in the menu below."
-    greeting = "Main Menu"
+    greeting = "Main Menu".colorize(:yellow)
     choices = %w(Encode Decode Profile Saved-Messages Quit)
     answer = menu_choices.select(greeting, choices)
+    
     if answer == choices[0]
         
         
